@@ -1,6 +1,8 @@
 import {getServerSession} from "next-auth";
 import Link from "next/link";
 import {buttonVariants} from "@/components/ui/Button";
+import SignInButton from "@/components/SignInButton";
+import SignOutButton from "@/components/SignOutButton";
 
 interface NavbarProps {
 }
