@@ -1,6 +1,6 @@
-import {FC, forwardRef, HTMLAttributes} from "react";
+import {forwardRef, HTMLAttributes} from "react";
 import {cva, VariantProps} from "class-variance-authority";
-import {HtmlAttributes} from "csstype";
+
 import {cn} from "@/lib/utils";
 
 const paragraphVariants = cva(
